@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Reg from "@/components/Reg";
+
 
 
 class App extends Component {
@@ -7,7 +7,7 @@ class App extends Component {
         return (
             <div>
                 <h3>App组件</h3>
-                <Reg/>
+                <p>addTodo功能</p>
             </div>
         );
     }
